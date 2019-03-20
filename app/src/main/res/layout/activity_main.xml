@@ -7,10 +7,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/fav_animals_layout"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:text="Hello World!"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,6 +27,7 @@
             android:text="Vivek's Favorite Animals"
             android:textSize="26sp"
             android:textStyle="bold"
+            android:textColor="@android:color/black"
             />
 
         <TextView
@@ -33,6 +35,7 @@
             android:layout_height="wrap_content"
             android:text="1. Grey Wolf"
             android:textSize="22sp"
+            android:textColor="@android:color/black"
             />
 
         <TextView
@@ -40,6 +43,7 @@
             android:layout_height="wrap_content"
             android:text="2. Snow Leopard"
             android:textSize="22sp"
+            android:textColor="@android:color/black"
             />
 
         <TextView
@@ -47,6 +51,7 @@
             android:layout_height="wrap_content"
             android:text="3. Arctic Fox"
             android:textSize="22sp"
+            android:textColor="@android:color/black"
             />
 
         <TextView
@@ -54,6 +59,7 @@
             android:layout_height="wrap_content"
             android:text="4. Peregrine Falcon"
             android:textSize="22sp"
+            android:textColor="@android:color/black"
             />
 
         <TextView
@@ -61,8 +67,72 @@
             android:layout_height="wrap_content"
             android:text="5. Killer Whale"
             android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fav_animals_layout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/fav_pets_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vivek's Favorite Pets"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
             />
 
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Siberian Husky"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2. German Shepherd"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="3. French Bulldog"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Suger Glider"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Hedgehog"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
